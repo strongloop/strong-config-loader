@@ -1,3 +1,13 @@
 {
-  "level": 1
+  "level": 1,
+  "options": {
+    "hello": "hello",
+    "foo": {
+      "bar": {
+        "bat": {
+          "baz": true
+        }
+      }
+    }
+  }
 }

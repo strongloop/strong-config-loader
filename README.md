@@ -21,7 +21,9 @@ The `config-loader` recursively loads and caches all `config.json` files.
     var ConfigLoader = require('../');
 
     var options = {
-      'file': 'config.json', // default config.json
+      'filename': 'config.json', // default config.json
+      'envFile': 'config.env.json', // default config.env.json
+      'envVar': 'NODE_ENV', // default NODE_ENV
       'ignore': ['images', '.git', /\^.*+/], // default null
       'ttl': 3600 // in seconds, default 3600
     };
@@ -39,6 +41,10 @@ The `config-loader` recursively loads and caches all `config.json` files.
 ## Usage
 
 Load config files recursively and return them in a dictionary. Each config is keyed by the path of its parent directory.
+
+## Env File
+
+Overrides the config based on the current `NODE_ENV`.
 
 ## Runtime Consistency
 

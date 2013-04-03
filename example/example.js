@@ -17,8 +17,6 @@ var options = {
 
 var configLoader = ConfigLoader.create('.', options);
 
-setInterval(function() {
-  configLoader.load(function (err, config, cache) {
-    console.log(arguments);
-  });
-}, 1000);
+configLoader.load(function (err, config, cache) {
+  console.log(JSON.stringify(config, true, '  '));
+});
