@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "debug": "latest",
-    "findit": "~0.1.2"
+    "task-emitter": "git+ssh://git@github.com:strongloop/task-emitter"
   },
   "devDependencies": {
     "mocha": "latest"
