@@ -7,7 +7,8 @@
   },
   "dependencies": {
     "debug": "latest",
-    "sl-task-emitter": "git+ssh://git@github.com:strongloop/sl-task-emitter"
+    "sl-task-emitter": "git+ssh://git@github.com:strongloop/sl-task-emitter",
+    "deepmerge": "~0.2.5"
   },
   "devDependencies": {
     "mocha": "latest"
