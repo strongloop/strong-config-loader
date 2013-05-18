@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "debug": "latest",
-    "task-emitter": "git+ssh://git@github.com:strongloop/task-emitter"
+    "sl-task-emitter": "git+ssh://git@github.com:strongloop/sl-task-emitter"
   },
   "devDependencies": {
     "mocha": "latest"
