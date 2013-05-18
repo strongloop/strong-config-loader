@@ -1,6 +1,6 @@
 {
-  "name": "asteroid-config-loader",
-  "description": "asteroid-config-loader",
+  "name": "sl-config-loader",
+  "description": "sl-config-loader",
   "version": "0.0.1",
   "scripts": {
     "test": "mocha"

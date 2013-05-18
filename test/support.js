@@ -1,5 +1,5 @@
 /**
- * asteroid-config-loader test setup and support.
+ * sl-config-loader test setup and support.
  */
  
 assert = require('assert');
