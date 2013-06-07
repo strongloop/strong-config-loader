@@ -1,7 +1,7 @@
 {
   "name": "sl-config-loader",
   "description": "recursively load config files",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "scripts": {
     "test": "mocha"
   },
