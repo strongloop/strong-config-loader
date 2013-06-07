@@ -1,16 +1,21 @@
 {
   "name": "sl-config-loader",
-  "description": "sl-config-loader",
+  "description": "recursively load config files",
   "version": "0.0.1",
   "scripts": {
     "test": "mocha"
   },
+  "license": "Apache 2",
   "dependencies": {
     "debug": "latest",
-    "sl-task-emitter": "git+ssh://git@github.com:strongloop/sl-task-emitter",
+    "sl-task-emitter": "0.0.x",
     "deepmerge": "~0.2.5"
   },
   "devDependencies": {
     "mocha": "latest"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/strongloop/sl-config-loader.git"
   }
 }
