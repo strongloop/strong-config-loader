@@ -1,9 +1,8 @@
-# sl-config-loader
-v0.0.1
+# strong-config-loader
 
 ## Install
 
-    slnode install sl-config-loader
+    slnode install strong-config-loader
     
 ## Example
 
@@ -16,7 +15,7 @@ Given a nested structure of directories and config files:
         /my-sub-resource
           config.json
 
-The `sl-config-loader` recursively loads and caches all `config.json` files.
+The `strong-config-loader` recursively loads and caches all `config.json` files.
 
     var ConfigLoader = require('../');
 
@@ -50,4 +49,4 @@ Overrides the config based on the current `NODE_ENV`.
 
 It is safe/performant to call `ConfigLoader.load` during http requests and other latency sensitive operations.
 
-The `sl-config-loader` is designed to load configuration that changes at runtime. To support this, the loader caches results for a specified `ttl` (time to live) and returns that result even if a config file has changed. Once the `ttl` runs out for a given config root, the loader checks the files last modified time (`mtime`) and compares it to the cache's last modified time. If the file has changed the new file is loaded from disk. The purpose of this complex checking is to support config loading in latency sensitive operations (eg. handling an http request).
+The `strong-config-loader` is designed to load configuration that changes at runtime. To support this, the loader caches results for a specified `ttl` (time to live) and returns that result even if a config file has changed. Once the `ttl` runs out for a given config root, the loader checks the files last modified time (`mtime`) and compares it to the cache's last modified time. If the file has changed the new file is loaded from disk. The purpose of this complex checking is to support config loading in latency sensitive operations (eg. handling an http request).

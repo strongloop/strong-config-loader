@@ -1,5 +1,5 @@
 /**
- * sl-config-loader ~ public api
+ * config-loader ~ public api
  */
  
 module.exports = require('./lib/config-loader');

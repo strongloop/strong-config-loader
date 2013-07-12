@@ -1,14 +1,14 @@
 {
-  "name": "sl-config-loader",
+  "name": "strong-config-loader",
   "description": "recursively load config files",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "scripts": {
     "test": "mocha"
   },
   "license": "MIT",
   "dependencies": {
     "debug": "latest",
-    "sl-task-emitter": "0.0.x",
+    "strong-task-emitter": "~0.0.1",
     "deepmerge": "~0.2.5"
   },
   "devDependencies": {
