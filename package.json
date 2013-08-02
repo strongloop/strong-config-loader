@@ -3,6 +3,10 @@
   "description": "recursively load config files",
   "version": "0.0.4",
   "scripts": {
+    "blanket": {
+      "pattern": "//^((?!(node_modules|test)).)*$/"
+    },
+    "coverage": "mocha -r blanket -R html-cov > coverage_strong-config-loader.html",
     "test": "mocha"
   },
   "license": "MIT",
@@ -12,7 +16,8 @@
     "deepmerge": "~0.2.5"
   },
   "devDependencies": {
-    "mocha": "latest"
+    "mocha": "latest",
+    "blanket": "latest"
   },
   "repository" : {
     "type" : "git",
