@@ -21,6 +21,6 @@
   },
   "repository" : {
     "type" : "git",
-    "url" : "http://github.com/strongloop/sl-config-loader.git"
+    "url" : "http://github.com/strongloop/strong-config-loader.git"
   }
 }
