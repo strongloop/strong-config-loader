@@ -1,0 +1,7 @@
+{
+  "content": [
+    "README.md",
+    { "title": "Config Loader", "depth": 2 },
+    "lib/config-loader-store.js"
+  ]
+}
