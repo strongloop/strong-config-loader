@@ -1,4 +1,4 @@
-# strong-config-loader
+# **DEPRECATED** - strong-config-loader
 
 ## Install
 
