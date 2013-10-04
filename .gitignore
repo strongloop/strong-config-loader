@@ -9,3 +9,5 @@
 *.swo
 node_modules/
 .project
+*.tgz
+coverage/
