@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "debug": "latest",
-    "strong-task-emitter": "~0.0.1",
+    "strong-task-emitter": "~0.1.0",
     "deepmerge": "~0.2.5"
   },
   "devDependencies": {
