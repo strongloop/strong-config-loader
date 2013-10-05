@@ -3,8 +3,6 @@
   "description": "recursively load config files",
   "version": "0.0.4",
   "scripts": {
-    "coverage": "istanbul cover node_modules/.bin/_mocha && istanbul report cobertura",
-    "ci-test": "mocha -R xunit > xunit.xml",
     "test": "mocha"
   },
   "license": "MIT",
@@ -14,8 +12,7 @@
     "deepmerge": "~0.2.5"
   },
   "devDependencies": {
-    "mocha": "~1.13.0",
-    "istanbul": "~0.1.44"
+    "mocha": "~1.13.0"
   },
   "repository": {
     "type": "git",
