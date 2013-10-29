@@ -1,7 +1,7 @@
 {
   "name": "strong-config-loader",
   "description": "recursively load config files",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "scripts": {
     "blanket": {
       "pattern": "//^((?!(node_modules|test)).)*$/"
