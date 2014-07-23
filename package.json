@@ -6,7 +6,7 @@
     "test": "mocha"
   },
   "license": {
-    "name": "Dual MIT/StrongLoop",
+    "name": "Dual Artistic/StrongLoop",
     "url": "https://github.com/strongloop/strong-config-loader/blob/master/LICENSE"
   },
   "dependencies": {
