@@ -1,7 +1,7 @@
 {
   "name": "strong-config-loader",
   "description": "recursively load config files",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "scripts": {
     "test": "mocha"
   },
