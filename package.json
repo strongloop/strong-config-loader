@@ -5,10 +5,7 @@
   "scripts": {
     "test": "mocha"
   },
-  "license": {
-    "name": "Dual Artistic/StrongLoop",
-    "url": "https://github.com/strongloop/strong-config-loader/blob/master/LICENSE"
-  },
+  "license": "Artistic-2.0",
   "dependencies": {
     "debug": "~0.7.2",
     "strong-task-emitter": "~0.0.1",
